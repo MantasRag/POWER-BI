@@ -1,6 +1,6 @@
 # „DataCo“ Tiekimo Grandinės Duomenų Rinkinio Analizė (Power BI)
 
-![Projektas](image_945587.png)
+<img width="1415" height="795" alt="image" src="https://github.com/user-attachments/assets/0c61937d-c339-429b-8cb1-0ac900d7c90d" />
 
 ## 📌 Projekto Apžvalga
 Šis „Power BI“ projektas skirtas **„DataCo“ tiekimo grandinės (2015–2018 m.)** pardavimų, produktų, pristatymo procesų ir geografinių rodiklių analizei. Projekto tikslas – transformuoti didelį kiekį struktūrizuotų duomenų į interaktyvias, verslo sprendimams pritaikytas vizualizacijas, padedančias optimizuoti logistiką, padidinti pelno maržą ir identifikuoti pelningiausius rinkos segmentus.
@@ -16,7 +16,8 @@
 ## 🖥️ Ataskaitos Puslapių Analizė ir Techninė Dokumentacija
 
 ### 0. Titulinis puslapis / Turinys (Main Dashboard Navigation)
-![Titulinis](image_945587.png)
+<img width="800" height="446" alt="Navigacija" src="https://github.com/user-attachments/assets/9cef4f70-528e-40ed-8576-d8a23ec475d9" />
+
 
 1. **Parodyti „Power BI“ įgūdžiai:**
    * Profesionalaus, vartotojui patogaus dizaino (UI/UX) kūrimas.
@@ -31,7 +32,8 @@
 ---
 
 ### 1. Pardavimų apžvalga (Sales Overview)
-![Pardavimų apžvalga](image_945548.png)
+<img width="800" height="445" alt="Pardavimų apžvalga" src="https://github.com/user-attachments/assets/e667079d-2a4b-48c7-92c4-6394b47b9818" />
+
 
 1. **Parodyti „Power BI“ įgūdžiai:**
    * Laiko eilučių analizė (*Time Series Analysis*) ir tendencijų vizualizavimas.
@@ -50,7 +52,8 @@
 ---
 
 ### 2. Parduodamų prekių analizė (Product Analysis)
-![Prekių analizė](image_9454a5.png)
+<img width="800" height="443" alt="Prekių analizė" src="https://github.com/user-attachments/assets/d4144a73-bf59-4c0b-ad18-1179bcc2d6dd" />
+
 
 1. **Parodyti „Power BI“ įgūdžiai:**
    * Sklaidos diagramų (*Scatter chart*) su tendencijos linijomis (*Trend lines*) kūrimas koreliacijų paieškai.
@@ -69,7 +72,8 @@
 ---
 
 ### 3. Pristatymo ir užsakymų analizė (Delivery & Order Analysis)
-![Pristatymo analizė](image_9451df.png)
+<img width="800" height="445" alt="Pristatymai ir užsakymai" src="https://github.com/user-attachments/assets/f8f2f34a-f136-4f92-bd2c-a4b96d4f4a70" />
+
 
 1. **Parodyti „Power BI“ įgūdžiai:**
    * Grupuotų ir sukauptų stulpelinių grafikų (*Stacked bar charts*) kūrimas kelių dimensijų analizei vienu metu.
@@ -87,7 +91,8 @@
 ---
 
 ### 4. Geografinė analizė (Geographical Analysis)
-![Geografinė analizė](image_9451a2.jpg)
+<img width="800" height="442" alt="Geografinė analizė" src="https://github.com/user-attachments/assets/a27861f9-3459-462d-9bf3-305d5e12e41c" />
+
 
 1. **Parodyti „Power BI“ įgūdžiai:**
    * GIS / Žemėlapių vizualizacijų (*Map integration*) integravimas naudojant burbulų dydžius (*Bubble size*) apyvartai atvaizduoti.
