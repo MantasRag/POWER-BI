@@ -1,121 +1,109 @@
-# „DataCo“ Tiekimo Grandinės Duomenų Rinkinio Analizė (Power BI)
+# „DataCo“ tiekimo grandinės apžvalga (Power BI)
 
-<img width="1415" height="795" alt="image" src="https://github.com/user-attachments/assets/0c61937d-c339-429b-8cb1-0ac900d7c90d" />
+<img width="1407" height="787" alt="image" src="https://github.com/user-attachments/assets/5fc9cb94-1335-4657-a143-4912939f50eb" />
 
-## 📌 Projekto Apžvalga
-Šis „Power BI“ projektas skirtas **„DataCo“ tiekimo grandinės (2015–2018 m.)** pardavimų, produktų, pristatymo procesų ir geografinių rodiklių analizei. Projekto tikslas – transformuoti didelį kiekį struktūrizuotų duomenų į interaktyvias, verslo sprendimams pritaikytas vizualizacijas, padedančias optimizuoti logistiką, padidinti pelno maržą ir identifikuoti pelningiausius rinkos segmentus.
+## Projekto Aprašymas
+Tai yra **„Power BI“ projektas**, kuriame analizuojami globalios įmonės „DataCo“ tiekimo grandinės duomenys. Projekto tikslas – praktiškai pritaikyti „Power BI“ vizualizavimo galimybes ir transformuoti turimus duomenis į interaktyvų įrankį, skirtą pardavimų, produktų, logistikos ir geografinių rodiklių apžvalgai.
 
-### 📊 Pagrindiniai duomenų rinkinio rodikliai:
-* **Įrašų skaičius:** 180,519 tūkst.
+### Pagrindiniai duomenų rinkinio rodikliai:
+* **Duomenų laikotarpis:** 2015–2018 m.
+* **Įrašų skaičius:** 180 519 vnt.
 * **Kintamųjų skaičius:** 53 kintamieji
+* **Unikalių užsakymų skaičius:** 65 752 vnt.
 * **Nagrinėjamų šalių skaičius:** 164 šalys
-* **Unikalių užsakymų skaičius:** 65,752 tūkst.
 
 ---
 
-## 🖥️ Ataskaitos Puslapių Analizė ir Techninė Dokumentacija
+## Ataskaitos puslapių apžvalga
 
-### 0. Titulinis puslapis / Turinys (Main Dashboard Navigation)
+### 0. Titulinis puslapis (turinys)
 <img width="800" height="446" alt="Navigacija" src="https://github.com/user-attachments/assets/9cef4f70-528e-40ed-8576-d8a23ec475d9" />
 
-
-1. **Parodyti „Power BI“ įgūdžiai:**
-   * Profesionalaus, vartotojui patogaus dizaino (UI/UX) kūrimas.
-   * Navigacijos struktūros planavimas naudojant puslapių nuorodas (Page Navigation).
-   * Aukšto lygio KPI kortelių (*KPI Cards*) panaudojimas bendram duomenų mastui įvertinti.
-2. **Bendros įžvalgos / Prognozės:**
-   * Matomas milžiniškas operacijų mastas (virš 180 tūkst. įrašų), apimantis globalią rinką (164 šalys). Tai indikuoja poreikį segmentuoti analizę pagal regionus ir produktų grupes, kad būtų išvengta duomenų triukšmo.
-3. **Ką parodo vizualizacijos:**
-   * **Viršutinis KPI blokas:** Parodo bendrą duomenų rinkinio apimtį, kintamuosius, geografinę aprėptį ir unikalių užsakymų skaičių.
-   * **4 navigaciniai blokai:** Nukreipia vartotoją į specifines analitines sritis (Pardavimų apžvalga, Prekių analizė, Pristatymo ir užsakymų analizė, Geografinė analizė).
+* **Panaudoti „Power BI“ įgūdžiai:** naudojant puslapių nuorodas (mygtukus) sukurta navigacija į kiekvieną ataskaitos puslapį, pateikti duomenų šaltinio svarbiausi duomenys panaudojant korteles.
+* **Vizualizacijų reikšmė:** 4 dideli navigaciniai blokai leidžia vartotojui patogiai pereiti į atskirus ataskaitos puslapius.
 
 ---
 
-### 1. Pardavimų apžvalga (Sales Overview)
+### 1 Puslapis – Pardavimų apžvalga
 <img width="800" height="445" alt="Pardavimų apžvalga" src="https://github.com/user-attachments/assets/e667079d-2a4b-48c7-92c4-6394b47b9818" />
 
-
-1. **Parodyti „Power BI“ įgūdžiai:**
-   * Laiko eilučių analizė (*Time Series Analysis*) ir tendencijų vizualizavimas.
-   * Skirtingų tipų vizualizacijų (linijinių grafika, žiedinių diagramų, stulpelinių grafikų) derinimas siekiant visapusiško konteksto.
-   * Duomenų formatavimas (valiutos, procentai, tūkstančių/milijonų trumpiniai).
-2. **Bendros įžvalgos / Prognozės:**
-   * **Krizinis signalas:** Linijiniame grafike matomas staigus pajamų kritimas 2017 m. pabaigoje – 2018 m. pradžioje. Prognozuojama, kad nesiėmus skubių veiksmų (gali būti techninė duomenų trūkumo klaida arba reali verslo krizė), įmonė rizikuoja prarasti rinkos pozicijas.
-   * Europos ir Lotynų Amerikos rinkos sugeneruoja daugiau nei 57% visų pajamų, todėl investicijos į rinkodarą šiose zonose atneš didžiausią grąžą.
-3. **Ką parodo vizualizacijos:**
-   * **KPI kortelės:** Bendros pajamos ($36,78 mln.), Bendras pelnas ($3,97 mln.), Parduotų prekių kiekis (384 tūkst. vnt.), Vidutinė pelno marža per užsakymą (12,06 %).
-   * **Pajamų ir pelno dydis kiekvieną mėnesį (Linijinis grafikas):** Atvaizduoja pajamų ir pelno dinamiką laike. Pelno linija išlieka stabili, tačiau pajamos patiria drastišką nuosmukį periodo pabaigoje.
-   * **Pajamos pagal rinką (Žiedinė diagrama / Donut Chart):** Parodo rinkų pasiskirstymą. Lyderiauja *Europe* ($10,87 mln.) ir *Latin America* ($10,28 mln.).
-   * **Pajamos pagal 8 pelningiausias prekių kategorijas (Horiz. stulpelinis grafikas):** Išryškina „Fishing“ (žvejybos) ir „Cleats“ (sportinių batelių) kategorijų dominavimą.
-   * **Pajamos pagal pristatymo būdą (Vertikalus stulpelinis grafikas):** Parodo, kad „Standard Class“ yra populiariausias ir daugiausiai pajamų generuojantis pristatymo metodas.
+* **Panaudoti „Power BI“ įgūdžiai:**
+  * KPI kortelių (*KPI Cards*) vizualizavimas ir formatavimas.
+  * Linijiniai grafikai su dviem duomenų eilutėmis (*Pajamos ir Pelnas*) laiko eilutėje.
+  * Žiedinė diagrama su etikečių formatavimu.
+  * Horizontalios juostinės diagramos su duomenų rūšiavimo nustatymais.
+  * Spalvų paletės parinkimas ir bendras dashboardo išdėstymas (*Layout*).
+* **Ką parodo vizualizacijos:**
+  * **KPI kortelės:** Bendros pajamos ($36,78 mln.), Bendras pelnas ($3,97 mln.), Parduotų prekių kiekis (384 tūkst. vnt.), Vidutinė pelno marža per užsakymą (12,06%).
+  * **Pajamų ir pelno dydis per mėnesį:** Pajamų ir pelno dinamika laike.
+  * **Pajamos pagal rinką:** Rinkų pasiskirstymas, kur lyderiauja *Europe* ($10,87 mln.).
+  * **Pajamos pagal 8 pelningiausias kategorijas:** Išryškina „Fishing“ (žvejybos) ir „Cleats“ (sportinių batelių) prekių dominavimą.
+  * **Pajamos pagal pristatymo būdą:** Parodo, kad „Standard Class“ generuoja didžiausią apyvartą.
+* **Įžvalgos:**
+  * Linijiniame grafike matomas staigus pajamų kritimas 2017 m. pabaigoje – 2018 m. pradžioje. Tai signalas ištirti, ar tai reali verslo krizė, ar duomenų trūkumo klaida.
+  * Kadangi Europa ir Lotynų Amerika sugeneruoja virš 57% pajamų, įmonė gali prognozuoti, kad investicijos į rinkodarą šiuose regionuose atneš didžiausią grąžą.
 
 ---
 
-### 2. Parduodamų prekių analizė (Product Analysis)
+### 2 Puslapis – Parduodamų prekių analizė
 <img width="800" height="443" alt="Prekių analizė" src="https://github.com/user-attachments/assets/d4144a73-bf59-4c0b-ad18-1179bcc2d6dd" />
 
-
-1. **Parodyti „Power BI“ įgūdžiai:**
-   * Sklaidos diagramų (*Scatter chart*) su tendencijos linijomis (*Trend lines*) kūrimas koreliacijų paieškai.
-   * Pažangus lentelių formatavimas naudojant duomenų juostas (*Data bars*) vizualiam palyginimui.
-   * Kategorijų filtravimo (*Slicers*) integracija ataskaitos viršuje.
-2. **Bendros įžvalgos / Prognozės:**
-   * **Neigiama koreliacija:** Sklaidos grafikas aiškiai parodo, kad didėjant vidutinei prekės kainai, pelno marža procentiškai linkusi mažėti (neigiama tendencijos linija). Prognozė: brangių prekių kainodara turi būti peržiūrėta, nes jos neuždirba proporcingai didesnės maržos.
-   * Pardavimų kiekis periodo pabaigoje (2018 m.) šovė į viršų, kas rodo išaugusią paklausą, nors bendros pajamos (iš 1 puslapio) krito – tai reiškia, kad buvo parduota daug pigių prekių.
-3. **Ką parodo vizualizacijos:**
-   * **KPI kortelės:** Vidutinė prekės kaina ($141,23), Vidutinė nuolaida ($20,66), Vidutinis prekių kiekis krepšelyje (2,13 vnt.), Vidutinis pelnas per prekės vienetą ($21,97).
-   * **Prekių kainų įtaka pelno maržai (Sklaidos diagrama):** Kiekvienas taškas yra produktas. Parodo ryšį tarp prekės kainos vidurkio ir maržos.
-   * **Užsakymų skaičius fiksuotu laikotarpiu per mėnesį (Linijinis grafikas):** Atskleidžia užsakymų kiekio šuolį 2017 m. pabaigoje (virš 2,100 vnt.).
-   * **TOP 5 prekės pagal pelno maržą (Horiz. stulpelinis grafikas):** Identifikuoja produktus-lyderius pagal efektyvumą (pvz., *Polar FT4 Heart Rate Monitor*).
-   * **5 pelningiausi produktai (Matrica/Lentelė su Data Bars):** Detalizuoja top prekių pajamas, pelną ir kiekius. Matome, kad *Field & Stream Sportsman 16 Gun Fire Safe* atnešė net $43,65 tūkst. pelno.
+* **Panaudoti „Power BI“ įgūdžiai:**
+  * Taškinio grafiko (*Scatter chart*) kūrimas ir tendencijų linijos (*Trend line*) įterpimas.
+  * Dinaminių filtrų (*Slicers*) kūrimas ir jų integravimas į kitas vizualizacijas.
+  * Lentelės formatavimas naudojant integruotas duomenų juostas (*Data bars*).
+* **Ką parodo vizualizacijos:**
+  * **KPI kortelės:** Vidutinė kaina ($141,23), Nuolaidos dydis ($20,66), Kiekis krepšelyje (2,13 vnt.), Pelnas per vienetą ($21,97).
+  * **Prekių kainų įtaka pelno maržai:** Parodo ryšį tarp prekės kainos ir jos sugeneruojamos maržos.
+  * **Užsakymų skaičius per mėnesį:** Paklausos tendencija laike.
+  * **TOP 5 prekės pagal pelno maržą ir 5 pelningiausi produktai:** Išskiria efektyviausias prekes.
+* **Įžvalgos:**
+  * Užsakymų skaičiaus šuolis periodo pabaigoje rodo išaugusią pigesnių prekių paklausą.
+  * Pasitaiko prekių, kurių pardavimai buvo nuostolingi įmonei (pvz. elipsinio treniruoklio "sole e25 elliptical" pardavimai).
 
 ---
 
-### 3. Pristatymo ir užsakymų analizė (Delivery & Order Analysis)
-<img width="800" height="445" alt="Pristatymai ir užsakymai" src="https://github.com/user-attachments/assets/f8f2f34a-f136-4f92-bd2c-a4b96d4f4a70" />
+### 3 Puslapis – Pristatymo ir užsakymų analizė (Delivery & Order Analysis)
+<img width="800" height="445" alt="Pristatymai ir užsakymai" src="https://github.com/user-attachments/assets/76232835-bbc0-4d8b-b79a-654cdfec5e23" />
 
 
-1. **Parodyti „Power BI“ įgūdžiai:**
-   * Grupuotų ir sukauptų stulpelinių grafikų (*Stacked bar charts*) kūrimas kelių dimensijų analizei vienu metu.
-   * Procentinio dalių pasiskirstymo vizualizavimas.
-   * Anomalijų ir rizikų valdymas per atšauktų užsakymų tendencijų sekimą.
-2. **Bendros įžvalgos / Prognozės:**
-   * **Logistikos efektyvumas:** Faktinis pristatymo laikas (3,50 d.) vidutiniškai viršija numatytąjį (2,93 d.). Tai sisteminė problema. Jei logistikos procesai nebus optimizuoti, klientų pasitenkinimas kris, o atšauktų užsakymų skaičius (kuris dabar siekia 1,367 tūkst.) augs.
-   * Beveik pusė užsakymų (45,02%) vis dar yra „Vykdoma“ būsenoje, kas gali signalizuoti apie „butelio kakliuką“ (*bottleneck*) sandėliuose ar logistikoje.
-3. **Ką parodo vizualizacijos:**
-   * **KPI kortelės:** Užsakymų skaičius (65,752 tūkst.), Atšauktų užsakymų skaičius (1,367 tūkst.), Numatytas vid. pristatymo laikas (2,93 d.), Faktinis vid. pristatymo laikas (3,50 d.).
-   * **Užsakymų skaičius pagal pristatymo būdą ir statusą (Sukauptas stulpelinis grafikas):** Parodo, kad daugiausiai vėluojančių ar įtariamų sukčiavimu užsakymų yra „Standard Class“ pristatymo tipe.
-   * **Užsakymų pasiskirstymas pagal statusą (Žiedinė diagrama):** Parodo procentinę užsakymų būseną (Vykdoma – 45,02%, Įvykdyta – 44,05% ir t.t.).
-   * **Atšauktų ir peržiūrimų užsakymų tendencija (Laiko eilutės grafikas):** Žymi „Atšaukta“ ir „Įtariamas sukčiavimas“ dinamiką mėnesiais. Matomas reguliarus svyravimas (piksuoja rizikos bangas kas kelis mėnesius).
-
----
-
-### 4. Geografinė analizė (Geographical Analysis)
-<img width="800" height="442" alt="Geografinė analizė" src="https://github.com/user-attachments/assets/a27861f9-3459-462d-9bf3-305d5e12e41c" />
-
-
-1. **Parodyti „Power BI“ įgūdžiai:**
-   * GIS / Žemėlapių vizualizacijų (*Map integration*) integravimas naudojant burbulų dydžius (*Bubble size*) apyvartai atvaizduoti.
-   * Geografinių hierarchijų valdymas (Regionas -> Šalis -> Miestas).
-   * Geriausiai pasirodančių lokacijų identifikavimas per TOP filtrus.
-2. **Bendros įžvalgos / Prognozės:**
-   * Vakarų Europa (*Western Europe*) yra pats pelningiausias regionas įmonei ($625,446.08 pelno). Strateginė prognozė: tikslinga plėsti sandėlių tinklą būtent Vakarų Europoje, kad būtų sumažintas pristatymo laikas (išspręsta 3 puslapio problema) šiame kritiniame regione.
-   * Didžiausia užsakymų koncentracija telkiasi pakrantėse ir didžiuosiuose megamiestuose (kaip matoma žemėlapyje).
-3. **Ką parodo vizualizacijos:**
-   * **KPI kortelės & Filtrai:** Šalių skaičius (164), Unikalių miestų skaičius (3,597 tūkst.), Pelningiausio regiono kortelė (*Western Europe*).
-   * **5 pelningiausi miestai (Horiz. stulpelinis grafikas):** Parodo miestus, generuojančius didžiausią grynąjį pelną: lyderis – *Santo Domingo*, toliau seka *New York City*, *Tegucigalpa*, *Los Angeles*, *Managua*.
-   * **Pelnas pagal rinką (Žiedinė diagrama):** Geografinis pelno pasiskirstymas procentais (Europe – 29,48%, Latin America – 28,32%).
-   * **Didžiausios apyvartos šalys (Pasaulio žemėlapis):** Vizualiai identifikuoja karštuosius pardavimų taškus visame pasaulyje. Burbulo dydis reprezentuoja apyvartos dydį.
+* **Panaudoti „Power BI“ įgūdžiai:**
+  * Sudėtinės stulpelinės diagramos (*Stacked bar*) kūrimas.
+  * Žiedinė diagrama su procentų ir absoliučių reikšmių etikečių derinimu.
+  * Dviejų eilučių linijinis grafikas problematiškų užsakymų stebėjimui laike.
+  * KPI kortelių naudojimas pristatymo laiko palyginimui (*Numatytas ir Faktinis laikas*).
+* **Ką parodo vizualizacijos:**
+  * **KPI kortelės:** Užsakymų skaičius (65 752 vnt.), Atšauktų užsakymų skaičius (1 367 vnt.), Numatytas (2,93 d.) ir Faktinis (3,50 d.) pristatymo laikas.
+  * **Užsakymų skaičius pagal būdą ir statusą:** Parodoma, kuriuo pristatymo būdų dažniausiai pristatomos prekės, stulpelio segmentai yra nuspalvinti pagal užsakymo statusą - pagal juos galima daryti išvadas, stebėjimą, kuriuose pristatymo būduose tiekimas stringa.
+  * **Užsakymų pasiskirstymas pagal statusą:** Atskleidžia, kad net 45,02% užsakymų yra „Vykdoma“ (Pending) būsenoje.
+  * **Atšauktų ir įtariamų sukčiavimų tendencija:** Seka rizikos faktorius laiko eilutėje.
+* **Įžvalgos**
+  * Faktinis pristatymo laikas (3,50 d.) sistemingai viršija numatytąjį (2,93 d.). Tai rodo logistikos sutrikimus.
 
 ---
 
-## 🛠️ Technologijų stakas
-* **Įrankis:** Power BI Desktop / Power BI Service
-* **Duomenų šaltinis:** DataCo Supply Chain Dataset (Kaggle)
-* **Duomenų transformacija:** Power Query (ETL procesas, duomenų tipų keitimas, stulpelių valymas).
-* **Analitika:** DAX (skaičiuojami matavimai vidutiniam pristatymo laikui, maržoms, unikalių užsakymų skaičiavimui).
+### 4 Puslapis – Geografinė analizė
+<img width="800" height="447" alt="Geografinė analizė" src="https://github.com/user-attachments/assets/33dcf321-e025-480f-9621-4f0e1a10f151" />
 
-## 🚀 Kaip peržiūrėti projektą?
+* **Panaudoti „Power BI“ įgūdžiai:**
+  * *Bing Maps* žemėlapio integravimas, valdant burbulų dydžius pagal apyvartos reikšmes.
+  * Dinaminės kortelės, rodančios geriausiai pasirodantį regioną pagal parinktą filtrą, sukūrimas.
+  * Kelių filtrų (*Slicers*) sinchronizavimas tarpusavyje.
+* **Ką parodo vizualizacijos:**
+  * **KPI kortelės:** Šalių skaičius (164), Miestų skaičius (3 597) ir Pelningiausias regionas (*Western Europe* su $625,446.08 pelno).
+  * **5 pelningiausi miestai:** Išskiria pelno lyderius (*Santo Domingo*, *New York City* ir t.t.).
+  * **Pelnas pagal rinką:** Geografinis pelno pasiskirstymas procentais (Europe – 29,48%).
+  * **Didžiausios apyvartos šalys (Žemėlapis):** Vizualiai identifikuoja globalius prekybos taškus.
+* **Įžvalgos:**
+  * Nors pajamų atžvilgiu skirtumas tarp Europos ir Lotynų Amerikos rinkų yra nedidelis, pelno atžvilgiu Europa išlaiko stipresnę poziciją. Įmonė gali prognozuoti didesnę investicijų grąžą plėsdama infrastruktūrą būtent vakarų Europos miestuose.
+
+---
+
+## Naudoti įrankiai
+* **Duomenų vizualizacija:** Power BI Desktop
+* **Duomenų šaltinis:** Kaggle (DataCo Supply Chain Dataset) https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+
+## Kaip peržiūrėti projektą?
 1. Atsisiųskite `.pbix` failą iš šios repozitorijos.
 2. Atsidarykite jį naudodami [Power BI Desktop](https://powerbi.microsoft.com/).
-3. Jei norite interaktyviai naršyti, naudokite titulinio puslapio navigacinius mygtukus arba filtrus ataskaitų viršuje.
+3. Naudokite titulinio puslapio navigacinius mygtukus bei filtrus puslapių viršuje interaktyviam duomenų tyrinėjimui.
